@@ -1,18 +1,35 @@
 body{
     background-color: #fafaf8;
     color: #00274C;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
 }
 
 h1{
     font-size: xx-large;
     font-family: sans-serif;
     text-align: center;
+    grid-row: 1/span 1;
 }
 
 h2{
     font-size: x-large;
     color: #000000;
     font-family: sans-serif;
+}
+
+main{
+    grid-column: 1/span 2;
+    grid-row: 2/span 1;
+}
+
+.img{
+    grid-column: 2/span 1;
+    height: auto;
+}
+
+footer{
+    grid-row: 3/span 1;
 }
 
 .skip{
