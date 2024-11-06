@@ -27,41 +27,42 @@
         alert("Current page URL: " + window.location.href);
     }
     </script>
+    <main id = "main">
+        <form action="https://formspree.io/f/mbljgoqj" method="POST">
+            <fieldset>
+                <legend>Form</legend>
+                <label for="first-name">First Name:</label>
+                <input type="text" placeholder = "Enter Your Name" id ="first-name" name="first-name" required>
 
-    <form action="https://formspree.io/f/mbljgoqj" method="POST" id = "main">>
-        <fieldset>
-            <legend>Form</legend>
-            <label for="first-name">First Name:</label>
-            <input type="text" placeholder = "Enter Your Name" id ="first-name" name="first-name" required>
+                <label for="last-name">Last Name:</label>
+                <input type="text" placeholder = "Enter Your Name" id = "last-name" name="last-name" required>
 
-            <label for="last-name">Last Name:</label>
-            <input type="text" placeholder = "Enter Your Name" id = "last-name" name="last-name" required>
+                <label for="program">Program: </label>
+                <input type="text" id="program" name="program" required>
 
-            <label for="program">Program: </label>
-            <input type="text" id="program" name="program" required>
+                <div class="radio-group">
+                    <p>Times Available for Picking Up Groceries:</p>
+                    <label for = "morning">Morning</label>
+                    <input type="radio" id="morning" name="available-time" value="morning">
 
-            <div class="radio-group">
-                <p>Times Available for Picking Up Groceries:</p>
-                <label for = "morning">Morning</label>
-                <input type="radio" id="morning" name="available-time" value="morning">
-
-                <label for="afternoon">Afternoon</label>
-                <input type="radio" id="afternoon" name="available-time" value="afternoon">
+                    <label for="afternoon">Afternoon</label>
+                    <input type="radio" id="afternoon" name="available-time" value="afternoon">
                 
-                <label for="evening">Evening</label>
-                <input type="radio" id="evening" name="available-time" value="evening">
+                    <label for="evening">Evening</label>
+                    <input type="radio" id="evening" name="available-time" value="evening">
         
-                <label for="saturday">Saturday</label>
-                <input type="radio" id="saturday" name="available-time" value="saturday">
+                    <label for="saturday">Saturday</label>
+                    <input type="radio" id="saturday" name="available-time" value="saturday">
 
-                <label for="sunday">Sunday</label>
-                <input type="radio" id="sunday" name="available-time" value="sunday">
+                    <label for="sunday">Sunday</label>
+                    <input type="radio" id="sunday" name="available-time" value="sunday">
                 
-            </div>
+                </div>
 
-            <input type="submit" value="Submit">
-        </fieldset>
-    </form>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </main>
     <footer>
         <p><br>Maize &amp Blue Cupboard <a href = "https://mbc.studentlife.umich.edu/">Maize &amp Blue Cupboard Information</a></p>
         <p>© Copyrights <span id="year"></span> All rights reserved.</p>
