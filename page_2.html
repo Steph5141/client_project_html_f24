@@ -15,8 +15,9 @@
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "page_1.html">School of Information Resources</a></li>
-                <li><a href = "page_2.html">First Generation Students</a></li>
+                <li><a href = "page_2.html" class = "active">First Generation Students</a></li>
                 <li><a href = "page_3.html">Maize &amp Blue Cupboard</a></li>
+                <li><a href = "form.html">Questionnaire from Maize &amp Blue Cupboard</a></li>
             </ul>
         </nav>
         <h1>Information for First Generation Students</h1>
@@ -53,7 +54,13 @@
 
     <footer>
         <p><br>First Generation Students <a href = "https://firstgen.umich.edu/">First Generation Information</a></p>
+        <p>© Copyrights <span id="year"></span> All rights reserved.</p>
     </footer>
+    <script>
+        const d = new Date(year);
+        d.getFullYear;
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
 </body>
 
