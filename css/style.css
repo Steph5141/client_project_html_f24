@@ -108,6 +108,17 @@ input[type="submit"] {
         grid-template-columns: 1fr 8fr 8fr 1fr;
     }
 
+    nav li:hover{
+        border: 2px solid #00274C;
+        background-color: #CFC096;
+        color: #00274C;
+    }
+
+    .active {
+        background-color: #CFC096;
+        color: #00274C;
+    }
+
     h1{
         font-size: x-large;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
